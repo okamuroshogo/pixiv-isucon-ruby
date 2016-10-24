@@ -2,6 +2,8 @@
 
 [pixiv社内isucon](https://github.com/catatsuy/private-isu)のRuby実装
 
+研修用にDBのblobデータを画像データとして外に出し､ blobの格納されたカラムを削除しています
+
 # アプリケーションの起動
 
 事前に画像初期データとDBの初期データをダウンロードしてください
