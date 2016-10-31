@@ -22,7 +22,7 @@ module Isuconp
             port: ENV['ISUCONP_DB_PORT'] && ENV['ISUCONP_DB_PORT'].to_i,
             username: ENV['ISUCONP_DB_USER'] || 'root',
             password: ENV['ISUCONP_DB_PASSWORD'],
-            database: ENV['ISUCONP_DB_NAME'] || 'isuconp',
+            database: ENV['ISUCONP_DB_NAME'] || 'isuconp_okasho',
           },
         }
       end
